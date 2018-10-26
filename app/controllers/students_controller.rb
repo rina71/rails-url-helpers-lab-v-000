@@ -15,6 +15,7 @@ class StudentsController < ApplicationController
       !@student.active
     else
       !!@student.active
+    end
   end
 
   private
