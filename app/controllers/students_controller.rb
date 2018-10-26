@@ -2,7 +2,7 @@ class StudentsController < ApplicationController
   before_action :set_student, only: :show
 
   def index
-    Student.create(:first_name=>"yurina", :last_name=>"shin")
+  
     @students = Student.all
   end
 
